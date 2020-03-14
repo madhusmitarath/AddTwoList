@@ -1,0 +1,27 @@
+'''Add Two Numbers
+ALGORITHM:
+step1:Allocate a newlinkedlist and point a pointer to the head of list
+step2:Iterateover both the linked list and carry to allocate a new node if incase there is a carry
+step3:sum up the value of each linkedlist and the carry 
+step4:return the newlinkedlist'''
+class Linkedlist:
+	def __init__(self,x):
+		self.val=val
+		self.next=None	
+
+def AddTwoNumbers(L1,L2):
+	carry=0
+	totalvalue=
+	newlinkedlisT=Linkedlist(0)
+	temp=newlinkedlist
+	while l1 or l2 or carry:
+		if l1:
+			totalvalue+=l1.val
+			l1=l1.next
+		if l2:
+			totalvalue+=l2.val
+			l2=l2.next
+		totalvalue+=carry
+		carry=totalvalue//10
+		temp.next=totalvalue%10
+		totalvalue=0
